@@ -4,21 +4,6 @@ public class Exercise01 : MonoBehaviour
 {
     private void Awake()
     {
-        string stringValue = "안녕하세요. 나웅빈입니다.";
-        bool boolValue = true;
-
-        Debug.Log("stringValue : " + stringValue);
-        Debug.Log("boolValue : " + boolValue);
-        
-        float floatValue01 = 3.141592653539323222f; //7자리 표현
-        float floatValue02 = 31.141592653539323222f; //7자리 표현
-        double doubleValue = 3.141592653539323222f; //15자리 표현
-        decimal decimalValue = 3.141592653539323222222m; //29자리 표현
-
-        Debug.Log("float Data : " + floatValue01);
-        Debug.Log("float Data : " + floatValue02);
-        Debug.Log("double Data : " + doubleValue);
-        Debug.Log("decimal Data : " + decimalValue);
         
         sbyte byteValue = 128;      //-128~127
         byte ubyteValue = 255;      //0~256
