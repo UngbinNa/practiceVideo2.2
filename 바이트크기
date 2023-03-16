@@ -4,8 +4,7 @@ public class Exercise01 : MonoBehaviour
 {
     private void Awake()
     {
-        string stringValue = "안녕하세요. 나웅빈입니다.";
-        bool boolValue = true;
+        
 
         Debug.Log("stringValue : " + stringValue);
         Debug.Log("boolValue : " + boolValue);
